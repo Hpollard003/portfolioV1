@@ -10,14 +10,11 @@ module.exports = {
     siteTitle: `Hunter`,
     siteTitleAlt: `Hunter Pollard III`,
     siteHeadline: `Hunter Pollard III`,
-    siteUrl: ``,
     siteDescription: `Hunter Pollard III Web Developer Portfolio Site`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
     author: `@HPollard003`,
   },
   plugins: [
-    "gatsby-plugin-netlify",
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
