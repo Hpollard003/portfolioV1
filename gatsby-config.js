@@ -1,6 +1,6 @@
-require(`dotenv`).config()
+require(`dotenv`).config();
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
@@ -17,6 +17,7 @@ module.exports = {
     author: `@HPollard003`,
   },
   plugins: [
+    "gatsby-plugin-netlify",
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
@@ -58,4 +59,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
